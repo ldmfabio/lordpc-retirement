@@ -44,7 +44,7 @@ onMounted(() => {
       </template>
 
       <template v-else>
-        <h1>Congratulations!</h1>
+        <h1 class="congratulations">Congratulations!</h1>
 
         <p class="decree">
           Lord PC has officially retired.
@@ -115,6 +115,14 @@ h1 {
 
 .lordpc {
   font-size: 5rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin: 40px 0 0 0;
+  line-height: 1;
+}
+
+.congratulations {
+  font-size: 3rem;
   font-weight: bold;
   color: #d4af37;
   margin: 40px 0 0 0;
