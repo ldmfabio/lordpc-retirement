@@ -40,6 +40,7 @@ onMounted(() => {
         <div class="days">{{ daysRemaining }}</div>
 
         <p class="remaining">days remaining</p>
+        <p class="andcounting">...and counting...</p>
       </template>
 
       <template v-else>
@@ -122,6 +123,14 @@ h1 {
 
 .remaining {
   font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.andcounting {
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-top: 16px;
