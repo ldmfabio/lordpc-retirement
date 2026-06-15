@@ -25,7 +25,7 @@ onMounted(() => {
       <div class="icon">🎓👑</div>
 
       <template v-if="!retired">
-        <h1>Lord PC</h1>
+        <h1 class="lordpc">Lord PC</h1>
 
         <p class="subtitle">Countdown to Retirement</p>
 
@@ -106,6 +106,14 @@ h1 {
 
 .days {
   font-size: 7rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin: 40px 0 0 0;
+  line-height: 1;
+}
+
+.lordpc {
+  font-size: 5rem;
   font-weight: bold;
   color: #d4af37;
   margin: 40px 0 0 0;
